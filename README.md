@@ -1,7 +1,6 @@
-# vite-react-tailwind-demo
+# Jarbat-Chat-App-client
 
-- **template of:** vite + react + typescript
-- **tailwindcss:** v3.x
+- vite/react/typescript/tailwindcss/GraphQL/GraphQL-ws/Apollo-client/Zustand
 
 ## Started
 
