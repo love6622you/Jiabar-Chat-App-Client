@@ -1,6 +1,6 @@
 # Jarbat-Chat-App-client
 
-- vite + react + typescript + tailwindcss
+- Vite + React + Typescript + Tailwindcss
 - GraphQL + GraphQL-ws + Apollo-client
 - Zustand
 
