@@ -25,7 +25,7 @@ const wsLink = new GraphQLWsLink(
 
 const httpLink = new HttpLink({
   // uri: "http://localhost:4000/graphql"
-  uri: "http://jiabar-chat-app.herokuapp.com/graphql"
+  uri: "https://jiabar-chat-app.herokuapp.com/graphql"
 });
 
 const splitLink = split(
