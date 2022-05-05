@@ -18,12 +18,14 @@ const authLink = setContext((_, { headers }) => {
 
 const wsLink = new GraphQLWsLink(
   createClient({
-    url: "ws://localhost:4000/graphql"
+    // url: "ws://localhost:4000/graphql"
+    url: "wss://jiabar-chat-app.herokuapp.com/graphql"
   })
 );
 
 const httpLink = new HttpLink({
-  uri: "http://localhost:4000/graphql"
+  // uri: "http://localhost:4000/graphql"
+  uri: "http://jiabar-chat-app.herokuapp.com/graphql"
 });
 
 const splitLink = split(
