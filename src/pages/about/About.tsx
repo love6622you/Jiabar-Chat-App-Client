@@ -58,7 +58,7 @@ function About() {
             </li>
             <li>
               資料庫
-              <p>MySQL、</p>
+              <p>MySQL</p>
             </li>
           </ol>
         </div>
