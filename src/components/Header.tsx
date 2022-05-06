@@ -33,7 +33,15 @@ function Navbar({ title }) {
         </Link>
       </div>
 
-      <div className="mx-2 px-2">
+      <div className="mx-2 flex items-center justify-center px-2">
+        <div
+          className="mr-6 h-6 w-6 cursor-pointer"
+          onClick={() => {
+            window.open("https://github.com/love6622you");
+          }}
+        >
+          <img src="/img/github-icon.png" alt="github" />
+        </div>
         <div className="dropdown-hover dropdown-end dropdown">
           <div className="flex items-center">
             <Avatar isOnline={true} />
